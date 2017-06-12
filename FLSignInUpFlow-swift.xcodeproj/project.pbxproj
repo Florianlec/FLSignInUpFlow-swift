@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044DAFEB1EEECC45008FD153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DAFEA1EEECC45008FD153 /* AppDelegate.swift */; };
+		044DAFF01EEECC45008FD153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044DAFEE1EEECC45008FD153 /* Main.storyboard */; };
+		044DAFF21EEECC45008FD153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044DAFF11EEECC45008FD153 /* Assets.xcassets */; };
+		044DAFF51EEECC46008FD153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044DAFF31EEECC46008FD153 /* LaunchScreen.storyboard */; };
+		044DAFFD1EEECCA2008FD153 /* FLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DAFFC1EEECCA2008FD153 /* FLLoginViewController.swift */; };
+		044DB0051EEECDC4008FD153 /* FLTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0041EEECDC4008FD153 /* FLTableViewController.swift */; };
+		044DB0071EEECE1C008FD153 /* FLSignInUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0061EEECE1C008FD153 /* FLSignInUpViewController.swift */; };
+		044DB00C1EEECEA6008FD153 /* FLSignInUpAbstractCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB00B1EEECEA6008FD153 /* FLSignInUpAbstractCell.swift */; };
+		044DB00E1EEECF02008FD153 /* FLSignInUpStandardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB00D1EEECF02008FD153 /* FLSignInUpStandardCell.swift */; };
+		044DB0101EEECF36008FD153 /* FLSignInUpSocialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB00F1EEECF36008FD153 /* FLSignInUpSocialCell.swift */; };
+		044DB0121EEECF46008FD153 /* FLSignInUpButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0111EEECF46008FD153 /* FLSignInUpButtonCell.swift */; };
+		044DB0141EEECF76008FD153 /* FLSignInUpAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0131EEECF76008FD153 /* FLSignInUpAccessoryView.swift */; };
+		044DB0161EEECFA4008FD153 /* FLSignInUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0151EEECFA4008FD153 /* FLSignInUpViewModel.swift */; };
+		044DB0181EEECFB9008FD153 /* FLSignInUpViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB0171EEECFB9008FD153 /* FLSignInUpViewItem.swift */; };
+		044DB01B1EEED6AE008FD153 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB01A1EEED6AE008FD153 /* UIViewController+Helper.swift */; };
+		044DB01D1EEED6FF008FD153 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DB01C1EEED6FF008FD153 /* String+Helper.swift */; };
+		57393307EE76288D274E8AC3 /* Pods_FLSignInUpFlow_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF3D71C5202A44C69AFA8C /* Pods_FLSignInUpFlow_swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044DAFE71EEECC45008FD153 /* FLSignInUpFlow-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLSignInUpFlow-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044DAFEA1EEECC45008FD153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044DAFEF1EEECC45008FD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044DAFF11EEECC45008FD153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044DAFF41EEECC46008FD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044DAFF61EEECC46008FD153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044DAFFC1EEECCA2008FD153 /* FLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLLoginViewController.swift; sourceTree = "<group>"; };
+		044DB0041EEECDC4008FD153 /* FLTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLTableViewController.swift; sourceTree = "<group>"; };
+		044DB0061EEECE1C008FD153 /* FLSignInUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpViewController.swift; sourceTree = "<group>"; };
+		044DB00B1EEECEA6008FD153 /* FLSignInUpAbstractCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpAbstractCell.swift; sourceTree = "<group>"; };
+		044DB00D1EEECF02008FD153 /* FLSignInUpStandardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpStandardCell.swift; sourceTree = "<group>"; };
+		044DB00F1EEECF36008FD153 /* FLSignInUpSocialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpSocialCell.swift; sourceTree = "<group>"; };
+		044DB0111EEECF46008FD153 /* FLSignInUpButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpButtonCell.swift; sourceTree = "<group>"; };
+		044DB0131EEECF76008FD153 /* FLSignInUpAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpAccessoryView.swift; sourceTree = "<group>"; };
+		044DB0151EEECFA4008FD153 /* FLSignInUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpViewModel.swift; sourceTree = "<group>"; };
+		044DB0171EEECFB9008FD153 /* FLSignInUpViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLSignInUpViewItem.swift; sourceTree = "<group>"; };
+		044DB0191EEED1EB008FD153 /* FLSignInUpFlow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLSignInUpFlow-Bridging-Header.h"; sourceTree = "<group>"; };
+		044DB01A1EEED6AE008FD153 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		044DB01C1EEED6FF008FD153 /* String+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		04E9E312E948A3C85552B425 /* Pods-FLSignInUpFlow-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSignInUpFlow-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLSignInUpFlow-swift/Pods-FLSignInUpFlow-swift.release.xcconfig"; sourceTree = "<group>"; };
+		EE78E56F477B7CBFC5846A80 /* Pods-FLSignInUpFlow-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSignInUpFlow-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLSignInUpFlow-swift/Pods-FLSignInUpFlow-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAF3D71C5202A44C69AFA8C /* Pods_FLSignInUpFlow_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSignInUpFlow_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044DAFE41EEECC45008FD153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57393307EE76288D274E8AC3 /* Pods_FLSignInUpFlow_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044DAFDE1EEECC45008FD153 = {
+			isa = PBXGroup;
+			children = (
+				044DAFE91EEECC45008FD153 /* FLSignInUpFlow-swift */,
+				044DAFE81EEECC45008FD153 /* Products */,
+				EF811CF751B7AABC7A64BB5D /* Pods */,
+				CFED7A12DAB4712A27A9BC59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044DAFE81EEECC45008FD153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044DAFE71EEECC45008FD153 /* FLSignInUpFlow-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044DAFE91EEECC45008FD153 /* FLSignInUpFlow-swift */ = {
+			isa = PBXGroup;
+			children = (
+				044DAFEA1EEECC45008FD153 /* AppDelegate.swift */,
+				044DB0031EEECDA6008FD153 /* Helpers */,
+				044DAFFE1EEECD29008FD153 /* Login */,
+				044DAFFF1EEECD31008FD153 /* SignInUp */,
+				044DB0001EEECD3B008FD153 /* Storyboards */,
+				044DB0021EEECD7C008FD153 /* Supporting Files */,
+			);
+			path = "FLSignInUpFlow-swift";
+			sourceTree = "<group>";
+		};
+		044DAFFE1EEECD29008FD153 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				044DAFFC1EEECCA2008FD153 /* FLLoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		044DAFFF1EEECD31008FD153 /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+				044DB0081EEECE49008FD153 /* Cells */,
+				044DB00A1EEECE65008FD153 /* View Model */,
+				044DB0091EEECE58008FD153 /* Views */,
+				044DB0061EEECE1C008FD153 /* FLSignInUpViewController.swift */,
+			);
+			name = SignInUp;
+			sourceTree = "<group>";
+		};
+		044DB0001EEECD3B008FD153 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				044DAFEE1EEECC45008FD153 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		044DB0021EEECD7C008FD153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044DAFF11EEECC45008FD153 /* Assets.xcassets */,
+				044DAFF31EEECC46008FD153 /* LaunchScreen.storyboard */,
+				044DAFF61EEECC46008FD153 /* Info.plist */,
+				044DB0191EEED1EB008FD153 /* FLSignInUpFlow-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044DB0031EEECDA6008FD153 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				044DB0041EEECDC4008FD153 /* FLTableViewController.swift */,
+				044DB01A1EEED6AE008FD153 /* UIViewController+Helper.swift */,
+				044DB01C1EEED6FF008FD153 /* String+Helper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		044DB0081EEECE49008FD153 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				044DB00B1EEECEA6008FD153 /* FLSignInUpAbstractCell.swift */,
+				044DB00D1EEECF02008FD153 /* FLSignInUpStandardCell.swift */,
+				044DB00F1EEECF36008FD153 /* FLSignInUpSocialCell.swift */,
+				044DB0111EEECF46008FD153 /* FLSignInUpButtonCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		044DB0091EEECE58008FD153 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				044DB0131EEECF76008FD153 /* FLSignInUpAccessoryView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		044DB00A1EEECE65008FD153 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				044DB0151EEECFA4008FD153 /* FLSignInUpViewModel.swift */,
+				044DB0171EEECFB9008FD153 /* FLSignInUpViewItem.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		CFED7A12DAB4712A27A9BC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF3D71C5202A44C69AFA8C /* Pods_FLSignInUpFlow_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF811CF751B7AABC7A64BB5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE78E56F477B7CBFC5846A80 /* Pods-FLSignInUpFlow-swift.debug.xcconfig */,
+				04E9E312E948A3C85552B425 /* Pods-FLSignInUpFlow-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044DAFE61EEECC45008FD153 /* FLSignInUpFlow-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044DAFF91EEECC46008FD153 /* Build configuration list for PBXNativeTarget "FLSignInUpFlow-swift" */;
+			buildPhases = (
+				5A4BBEA378E11908B3E16C33 /* [CP] Check Pods Manifest.lock */,
+				044DAFE31EEECC45008FD153 /* Sources */,
+				044DAFE41EEECC45008FD153 /* Frameworks */,
+				044DAFE51EEECC45008FD153 /* Resources */,
+				B44E4F1921404A12DE6C7F5C /* [CP] Embed Pods Frameworks */,
+				09575E5EAC24E5AB689DD1BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLSignInUpFlow-swift";
+			productName = "FLSignInUpFlow-swift";
+			productReference = 044DAFE71EEECC45008FD153 /* FLSignInUpFlow-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044DAFDF1EEECC45008FD153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Florian Lecluse";
+				TargetAttributes = {
+					044DAFE61EEECC45008FD153 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y8Z2PQ8VKD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 044DAFE21EEECC45008FD153 /* Build configuration list for PBXProject "FLSignInUpFlow-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044DAFDE1EEECC45008FD153;
+			productRefGroup = 044DAFE81EEECC45008FD153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044DAFE61EEECC45008FD153 /* FLSignInUpFlow-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044DAFE51EEECC45008FD153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044DAFF51EEECC46008FD153 /* LaunchScreen.storyboard in Resources */,
+				044DAFF21EEECC45008FD153 /* Assets.xcassets in Resources */,
+				044DAFF01EEECC45008FD153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09575E5EAC24E5AB689DD1BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSignInUpFlow-swift/Pods-FLSignInUpFlow-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4BBEA378E11908B3E16C33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B44E4F1921404A12DE6C7F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSignInUpFlow-swift/Pods-FLSignInUpFlow-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044DAFE31EEECC45008FD153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044DB0121EEECF46008FD153 /* FLSignInUpButtonCell.swift in Sources */,
+				044DB0161EEECFA4008FD153 /* FLSignInUpViewModel.swift in Sources */,
+				044DB0181EEECFB9008FD153 /* FLSignInUpViewItem.swift in Sources */,
+				044DB01D1EEED6FF008FD153 /* String+Helper.swift in Sources */,
+				044DAFFD1EEECCA2008FD153 /* FLLoginViewController.swift in Sources */,
+				044DB01B1EEED6AE008FD153 /* UIViewController+Helper.swift in Sources */,
+				044DB0051EEECDC4008FD153 /* FLTableViewController.swift in Sources */,
+				044DB0101EEECF36008FD153 /* FLSignInUpSocialCell.swift in Sources */,
+				044DB0141EEECF76008FD153 /* FLSignInUpAccessoryView.swift in Sources */,
+				044DB00C1EEECEA6008FD153 /* FLSignInUpAbstractCell.swift in Sources */,
+				044DAFEB1EEECC45008FD153 /* AppDelegate.swift in Sources */,
+				044DB0071EEECE1C008FD153 /* FLSignInUpViewController.swift in Sources */,
+				044DB00E1EEECF02008FD153 /* FLSignInUpStandardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		044DAFEE1EEECC45008FD153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044DAFEF1EEECC45008FD153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044DAFF31EEECC46008FD153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044DAFF41EEECC46008FD153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044DAFF71EEECC46008FD153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044DAFF81EEECC46008FD153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044DAFFA1EEECC46008FD153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE78E56F477B7CBFC5846A80 /* Pods-FLSignInUpFlow-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8Z2PQ8VKD;
+				INFOPLIST_FILE = "FLSignInUpFlow-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "florianlecluse.FLSignInUpFlow-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLSignInUpFlow-swift/FLSignInUpFlow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		044DAFFB1EEECC46008FD153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E9E312E948A3C85552B425 /* Pods-FLSignInUpFlow-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8Z2PQ8VKD;
+				INFOPLIST_FILE = "FLSignInUpFlow-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "florianlecluse.FLSignInUpFlow-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLSignInUpFlow-swift/FLSignInUpFlow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044DAFE21EEECC45008FD153 /* Build configuration list for PBXProject "FLSignInUpFlow-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044DAFF71EEECC46008FD153 /* Debug */,
+				044DAFF81EEECC46008FD153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044DAFF91EEECC46008FD153 /* Build configuration list for PBXNativeTarget "FLSignInUpFlow-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044DAFFA1EEECC46008FD153 /* Debug */,
+				044DAFFB1EEECC46008FD153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044DAFDF1EEECC45008FD153 /* Project object */;
+}
